@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0385DBB42D672F7700BE0C54 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0385DBB32D672F7700BE0C54 /* FirebaseAuth */; };
+		0385DBB82D67389E00BE0C54 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0385DBB72D67389E00BE0C54 /* FirebaseStorage */; };
+		CE8B30822DBAB8B100E07AB4 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = CE8B30812DBAB8B100E07AB4 /* FirebaseFunctions */; };
+		CE8B30842DBAB8D800E07AB4 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CE8B30832DBAB8D800E07AB4 /* FirebaseMessaging */; };
+		CECADA012D42C7D800D5F509 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CECADA002D42C7D800D5F509 /* FirebaseAnalytics */; };
+		CECADA032D42C7D800D5F509 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CECADA022D42C7D800D5F509 /* FirebaseAnalyticsOnDeviceConversion */; };
+		CECADA052D42C7D800D5F509 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = CECADA042D42C7D800D5F509 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		CECADA072D42C7D800D5F509 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = CECADA062D42C7D800D5F509 /* FirebaseAppCheck */; };
+		CECADA092D42C7D800D5F509 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = CECADA082D42C7D800D5F509 /* FirebaseAppDistribution-Beta */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECAD8FE2D3F1A2500D5F509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECAD8DF2D3F1A2300D5F509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECAD8E62D3F1A2300D5F509;
+			remoteInfo = RestaurantRecommender;
+		};
+		CECAD9082D3F1A2500D5F509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECAD8DF2D3F1A2300D5F509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECAD8E62D3F1A2300D5F509;
+			remoteInfo = RestaurantRecommender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECAD8E72D3F1A2300D5F509 /* RestaurantRecommender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantRecommender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECAD8FD2D3F1A2500D5F509 /* RestaurantRecommenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantRecommenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECAD9072D3F1A2500D5F509 /* RestaurantRecommenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantRecommenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CECAD90F2D3F1A2500D5F509 /* Exceptions for "RestaurantRecommender" folder in "RestaurantRecommender" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CECAD8E62D3F1A2300D5F509 /* RestaurantRecommender */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CECAD8E92D3F1A2300D5F509 /* RestaurantRecommender */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CECAD90F2D3F1A2500D5F509 /* Exceptions for "RestaurantRecommender" folder in "RestaurantRecommender" target */,
+			);
+			path = RestaurantRecommender;
+			sourceTree = "<group>";
+		};
+		CECAD9002D3F1A2500D5F509 /* RestaurantRecommenderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RestaurantRecommenderTests;
+			sourceTree = "<group>";
+		};
+		CECAD90A2D3F1A2500D5F509 /* RestaurantRecommenderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RestaurantRecommenderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECAD8E42D3F1A2300D5F509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8B30842DBAB8D800E07AB4 /* FirebaseMessaging in Frameworks */,
+				CECADA072D42C7D800D5F509 /* FirebaseAppCheck in Frameworks */,
+				0385DBB42D672F7700BE0C54 /* FirebaseAuth in Frameworks */,
+				CECADA012D42C7D800D5F509 /* FirebaseAnalytics in Frameworks */,
+				CE8B30822DBAB8B100E07AB4 /* FirebaseFunctions in Frameworks */,
+				CECADA092D42C7D800D5F509 /* FirebaseAppDistribution-Beta in Frameworks */,
+				0385DBB82D67389E00BE0C54 /* FirebaseStorage in Frameworks */,
+				CECADA052D42C7D800D5F509 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				CECADA032D42C7D800D5F509 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAD8FA2D3F1A2500D5F509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAD9042D3F1A2500D5F509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0385DBB22D672F7700BE0C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECAD8DE2D3F1A2300D5F509 = {
+			isa = PBXGroup;
+			children = (
+				CECAD8E92D3F1A2300D5F509 /* RestaurantRecommender */,
+				CECAD9002D3F1A2500D5F509 /* RestaurantRecommenderTests */,
+				CECAD90A2D3F1A2500D5F509 /* RestaurantRecommenderUITests */,
+				0385DBB22D672F7700BE0C54 /* Frameworks */,
+				CECAD8E82D3F1A2300D5F509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECAD8E82D3F1A2300D5F509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECAD8E72D3F1A2300D5F509 /* RestaurantRecommender.app */,
+				CECAD8FD2D3F1A2500D5F509 /* RestaurantRecommenderTests.xctest */,
+				CECAD9072D3F1A2500D5F509 /* RestaurantRecommenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECAD8E62D3F1A2300D5F509 /* RestaurantRecommender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECAD9102D3F1A2500D5F509 /* Build configuration list for PBXNativeTarget "RestaurantRecommender" */;
+			buildPhases = (
+				CECAD8E32D3F1A2300D5F509 /* Sources */,
+				CECAD8E42D3F1A2300D5F509 /* Frameworks */,
+				CECAD8E52D3F1A2300D5F509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CECAD8E92D3F1A2300D5F509 /* RestaurantRecommender */,
+			);
+			name = RestaurantRecommender;
+			packageProductDependencies = (
+				CECADA002D42C7D800D5F509 /* FirebaseAnalytics */,
+				CECADA022D42C7D800D5F509 /* FirebaseAnalyticsOnDeviceConversion */,
+				CECADA042D42C7D800D5F509 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				CECADA062D42C7D800D5F509 /* FirebaseAppCheck */,
+				CECADA082D42C7D800D5F509 /* FirebaseAppDistribution-Beta */,
+				0385DBB32D672F7700BE0C54 /* FirebaseAuth */,
+				0385DBB72D67389E00BE0C54 /* FirebaseStorage */,
+				CE8B30812DBAB8B100E07AB4 /* FirebaseFunctions */,
+				CE8B30832DBAB8D800E07AB4 /* FirebaseMessaging */,
+			);
+			productName = RestaurantRecommender;
+			productReference = CECAD8E72D3F1A2300D5F509 /* RestaurantRecommender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECAD8FC2D3F1A2500D5F509 /* RestaurantRecommenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECAD9152D3F1A2500D5F509 /* Build configuration list for PBXNativeTarget "RestaurantRecommenderTests" */;
+			buildPhases = (
+				CECAD8F92D3F1A2500D5F509 /* Sources */,
+				CECAD8FA2D3F1A2500D5F509 /* Frameworks */,
+				CECAD8FB2D3F1A2500D5F509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECAD8FF2D3F1A2500D5F509 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CECAD9002D3F1A2500D5F509 /* RestaurantRecommenderTests */,
+			);
+			name = RestaurantRecommenderTests;
+			packageProductDependencies = (
+			);
+			productName = RestaurantRecommenderTests;
+			productReference = CECAD8FD2D3F1A2500D5F509 /* RestaurantRecommenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECAD9062D3F1A2500D5F509 /* RestaurantRecommenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECAD9182D3F1A2500D5F509 /* Build configuration list for PBXNativeTarget "RestaurantRecommenderUITests" */;
+			buildPhases = (
+				CECAD9032D3F1A2500D5F509 /* Sources */,
+				CECAD9042D3F1A2500D5F509 /* Frameworks */,
+				CECAD9052D3F1A2500D5F509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECAD9092D3F1A2500D5F509 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CECAD90A2D3F1A2500D5F509 /* RestaurantRecommenderUITests */,
+			);
+			name = RestaurantRecommenderUITests;
+			packageProductDependencies = (
+			);
+			productName = RestaurantRecommenderUITests;
+			productReference = CECAD9072D3F1A2500D5F509 /* RestaurantRecommenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECAD8DF2D3F1A2300D5F509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CECAD8E62D3F1A2300D5F509 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CECAD8FC2D3F1A2500D5F509 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CECAD8E62D3F1A2300D5F509;
+					};
+					CECAD9062D3F1A2500D5F509 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CECAD8E62D3F1A2300D5F509;
+					};
+				};
+			};
+			buildConfigurationList = CECAD8E22D3F1A2300D5F509 /* Build configuration list for PBXProject "RestaurantRecommender" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECAD8DE2D3F1A2300D5F509;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CECAD8E82D3F1A2300D5F509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECAD8E62D3F1A2300D5F509 /* RestaurantRecommender */,
+				CECAD8FC2D3F1A2500D5F509 /* RestaurantRecommenderTests */,
+				CECAD9062D3F1A2500D5F509 /* RestaurantRecommenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECAD8E52D3F1A2300D5F509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAD8FB2D3F1A2500D5F509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAD9052D3F1A2500D5F509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECAD8E32D3F1A2300D5F509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAD8F92D3F1A2500D5F509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECAD9032D3F1A2500D5F509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECAD8FF2D3F1A2500D5F509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECAD8E62D3F1A2300D5F509 /* RestaurantRecommender */;
+			targetProxy = CECAD8FE2D3F1A2500D5F509 /* PBXContainerItemProxy */;
+		};
+		CECAD9092D3F1A2500D5F509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECAD8E62D3F1A2300D5F509 /* RestaurantRecommender */;
+			targetProxy = CECAD9082D3F1A2500D5F509 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CECAD9112D3F1A2500D5F509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5K85SLKRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestaurantRecommender/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RestaurantRecommender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECAD9122D3F1A2500D5F509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5K85SLKRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestaurantRecommender/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RestaurantRecommender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CECAD9132D3F1A2500D5F509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECAD9142D3F1A2500D5F509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECAD9162D3F1A2500D5F509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5K85SLKRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RestaurantRecommenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantRecommender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RestaurantRecommender";
+			};
+			name = Debug;
+		};
+		CECAD9172D3F1A2500D5F509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5K85SLKRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RestaurantRecommenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantRecommender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RestaurantRecommender";
+			};
+			name = Release;
+		};
+		CECAD9192D3F1A2500D5F509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5K85SLKRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RestaurantRecommenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestaurantRecommender;
+			};
+			name = Debug;
+		};
+		CECAD91A2D3F1A2500D5F509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5K85SLKRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RestaurantRecommenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestaurantRecommender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECAD8E22D3F1A2300D5F509 /* Build configuration list for PBXProject "RestaurantRecommender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECAD9132D3F1A2500D5F509 /* Debug */,
+				CECAD9142D3F1A2500D5F509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECAD9102D3F1A2500D5F509 /* Build configuration list for PBXNativeTarget "RestaurantRecommender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECAD9112D3F1A2500D5F509 /* Debug */,
+				CECAD9122D3F1A2500D5F509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECAD9152D3F1A2500D5F509 /* Build configuration list for PBXNativeTarget "RestaurantRecommenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECAD9162D3F1A2500D5F509 /* Debug */,
+				CECAD9172D3F1A2500D5F509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECAD9182D3F1A2500D5F509 /* Build configuration list for PBXNativeTarget "RestaurantRecommenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECAD9192D3F1A2500D5F509 /* Debug */,
+				CECAD91A2D3F1A2500D5F509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0385DBB32D672F7700BE0C54 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0385DBB72D67389E00BE0C54 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		CE8B30812DBAB8B100E07AB4 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		CE8B30832DBAB8D800E07AB4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		CECADA002D42C7D800D5F509 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CECADA022D42C7D800D5F509 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		CECADA042D42C7D800D5F509 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		CECADA062D42C7D800D5F509 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		CECADA082D42C7D800D5F509 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECAD9FF2D42C7D800D5F509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CECAD8DF2D3F1A2300D5F509 /* Project object */;
+}
